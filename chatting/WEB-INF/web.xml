@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="2.4" 
-	xmlns="http://java.sun.com/xml/ns/j2ee" 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+<!--
+/**
+ * Akhil Gupta
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL)
+ * This is available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/OSL-3.0  Open Software License (OSL)
+ *
+ * DISCLAIMER**
+ *
+ * @category   Simple JAVA Web CHAT APPLICATION
+ * @package    Simple JAVA Web CHAT APPLICATION
+ * @url       https://www.youtube.com/user/thisisakhilgupta/
+ * @author    Akhil Gupta
+ */
+-->
+
+<web-app version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
 	<servlet>

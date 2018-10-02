@@ -1,3 +1,22 @@
+<!--
+/**
+ * Akhil Gupta
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL)
+ * This is available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/OSL-3.0  Open Software License (OSL)
+ *
+ * DISCLAIMER**
+ *
+ * @category   Simple JAVA Web CHAT APPLICATION
+ * @package    Simple JAVA Web CHAT APPLICATION
+ * @url       https://www.youtube.com/user/thisisakhilgupta/
+ * @author    Akhil Gupta
+ */
+-->
+
 function startchating() {
     var uname = document.getElementById('uname');
     var pw = document.getElementById('pw');
@@ -37,12 +56,12 @@ function addText()
 {
     var username = document.getElementById('u').value;
     var msg = document.getElementById('h').value;
-    olist = document.getElementById('list'); 
-    op = document.createElement('p'); 
+    olist = document.getElementById('list');
+    op = document.createElement('p');
     op.innerHTML = username + "- <g>" + msg + "</g>";
-    ocontent = document.getElementById('content');   
+    ocontent = document.getElementById('content');
     ocontent.appendChild(op);             //Add new line on click
-    olist.scrollTop = olist.scrollHeight; //Adjust Height 
+    olist.scrollTop = olist.scrollHeight; //Adjust Height
     document.getElementById('h').value = '';
     var xmlhttp;
     if (window.XMLHttpRequest)
@@ -102,4 +121,3 @@ function reloaddata()
 
 
 }
-
